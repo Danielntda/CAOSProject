@@ -10,9 +10,15 @@
     <form id="form1" runat="server">
     <div>
     
-        <asp:TextBox ID="TextBox1" runat="server" Height="145px" Width="578px"></asp:TextBox>
-    
     </div>
+    &nbsp;<asp:Label ID="Label2" runat="server" Text="Non-Preemptive"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;
+    <asp:Label ID="Label1" runat="server" Text="First Come First Serve"></asp:Label>
+&nbsp;<br />
+    <asp:Button ID="Button1" runat="server" Text="FCFS" />
+&nbsp;&nbsp;&nbsp;
+    <asp:Button ID="Button2" runat="server" Text="SJF" />
+&nbsp;&nbsp;&nbsp;
     </form>
 </body>
 </html>
