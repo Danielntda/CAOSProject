@@ -19,6 +19,35 @@
 &nbsp;&nbsp;&nbsp;
     <asp:Button ID="Button2" runat="server" Text="SJF" />
 &nbsp;&nbsp;&nbsp;
+        <br />
+        <br />
+        <asp:Button ID="Button3" runat="server" Text="Preemptive" />
+&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button4" runat="server" Text="Non-Preemptive" />
+        <br />
+        <br />
+        <asp:Label ID="Label3" runat="server" Text="Process ID"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+        <br />
+        <asp:Label ID="Label4" runat="server" Text="Arrival Time"></asp:Label>
+&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button6" runat="server" Text="Start" />
+        <br />
+        <asp:Label ID="Label5" runat="server" Text="Burst Time"></asp:Label>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:TextBox ID="TextBox4" runat="server"></asp:TextBox>
+        <br />
+        <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Add Process" />
+        <br />
+        <br />
+        <br />
+        <asp:TextBox ID="TextBox1" runat="server" Height="159px" OnTextChanged="TextBox1_TextChanged" Width="765px">Console Output</asp:TextBox>
+        <br />
+        <br />
+        <br />
     </form>
 </body>
 </html>
