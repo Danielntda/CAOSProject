@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{6C88236A-1946-418E-A6FE-FD2C2FA57C62}|">
+  <MonoDevelop.Ide.ItemProperties.CAOSProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CAOSProject/GUI.aspx.designer.cs">
+    <Files>
+      <File FileName="CAOSProject/GUI.aspx.cs" Line="29" Column="13" />
+      <File FileName="CAOSProject/GUI.aspx.designer.cs" Line="32" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
