@@ -19,6 +19,13 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -56,6 +63,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MainMemory.aspx" />
     <Content Include="GUI.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -66,6 +74,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MainMemory.aspx.cs">
+      <DependentUpon>MainMemory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainMemory.aspx.designer.cs">
+      <DependentUpon>MainMemory.aspx</DependentUpon>
+    </Compile>
     <Compile Include="GUI.aspx.cs">
       <DependentUpon>GUI.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
