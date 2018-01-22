@@ -14,9 +14,9 @@
 
             </div>
             &nbsp;
-            <asp:Label ID="Label2" runat="server" Text="Non-Preemptive"></asp:Label>
+            <asp:Label ID="lblPreemptive" runat="server" Text="Non-Preemptive"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Label ID="Label1" runat="server" Text="First Come First Serve"></asp:Label>
+            <asp:Label ID="lblFCFS" runat="server" Text="First Come First Serve"></asp:Label>
             &nbsp;<br />
             <asp:Button ID="Button1" runat="server" Text="FCFS" /> &nbsp;&nbsp;&nbsp;
             <asp:Button ID="Button2" runat="server" Text="SJF" /> &nbsp;&nbsp;&nbsp;
@@ -34,7 +34,7 @@
             &nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="TextBox3" runat="server"></asp:TextBox>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button6" runat="server" Text="Start" />
+            <asp:Button ID="Button6" runat="server" Text="Start" OnClick="Button6_Click" />
             <br />
             <asp:Label ID="Label5" runat="server" Text="Burst Time"></asp:Label>
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -44,7 +44,7 @@
             <br />
             <br />
             <br />
-            <asp:TextBox ID="TextBox1" runat="server" Height="159px" OnTextChanged="TextBox1_TextChanged" Width="765px">Console Output</asp:TextBox>
+            <asp:TextBox ID="TxtConsole" runat="server" Height="159px" OnTextChanged="TextBox1_TextChanged" Width="765px">Console Output</asp:TextBox>
             <br />
             <br />
             <br />

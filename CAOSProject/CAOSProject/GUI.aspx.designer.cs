@@ -22,22 +22,22 @@ namespace CAOSProject {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// Label2 control.
+        /// lblPreemptive control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label2;
+        protected global::System.Web.UI.WebControls.Label lblPreemptive;
         
         /// <summary>
-        /// Label1 control.
+        /// lblFCFS control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label1;
+        protected global::System.Web.UI.WebControls.Label lblFCFS;
         
         /// <summary>
         /// Button1 control.
@@ -148,12 +148,12 @@ namespace CAOSProject {
         protected global::System.Web.UI.WebControls.Button Button5;
         
         /// <summary>
-        /// TextBox1 control.
+        /// TxtConsole control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.TextBox TxtConsole;
     }
 }

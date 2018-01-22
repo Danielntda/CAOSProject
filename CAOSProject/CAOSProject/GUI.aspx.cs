@@ -14,17 +14,7 @@ namespace CAOSProject
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void Button5_Click(object sender, EventArgs e)
+        protected void Button6_Click(object sender, EventArgs e)
         {
 
         }
