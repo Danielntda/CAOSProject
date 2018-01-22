@@ -10,7 +10,7 @@
 namespace CAOSProject {
     
     
-    public partial class GUI {
+    public partial class MainMemory {
         
         /// <summary>
         /// form1 control.

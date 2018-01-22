@@ -1,0 +1,6 @@
+D:\apps\CAOSProject\CAOSProject\CAOSProject\obj\Debug\CAOSProject.csprojResolveAssemblyReference.cache
+D:\apps\CAOSProject\CAOSProject\CAOSProject\bin\CAOSProject.dll.config
+D:\apps\CAOSProject\CAOSProject\CAOSProject\bin\CAOSProject.dll
+D:\apps\CAOSProject\CAOSProject\CAOSProject\bin\CAOSProject.pdb
+D:\apps\CAOSProject\CAOSProject\CAOSProject\obj\Debug\CAOSProject.dll
+D:\apps\CAOSProject\CAOSProject\CAOSProject\obj\Debug\CAOSProject.pdb

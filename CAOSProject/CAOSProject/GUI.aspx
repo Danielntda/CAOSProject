@@ -22,8 +22,8 @@
             <asp:Button ID="Button2" runat="server" Text="SJF" /> &nbsp;&nbsp;&nbsp;
             <br />
             <br />
-            <asp:Button ID="Button3" runat="server" Text="Preemptive" /> &nbsp;&nbsp;&nbsp;
-            <asp:Button ID="Button4" runat="server" Text="Non-Preemptive" />
+            <asp:Button ID="Button3" runat="server" Text="Preemptive" OnClick="Button3_Click" /> &nbsp;&nbsp;&nbsp;
+            <asp:Button ID="Button4" runat="server" Text="Non-Preemptive" OnClick="Button4_Click" />
             <br />
             <br />
             <asp:Label ID="Label3" runat="server" Text="Process ID"></asp:Label>
@@ -43,8 +43,8 @@
             <asp:Button ID="Button5" runat="server" OnClick="Button5_Click" Text="Add Process" />
             <br />
             <br />
+            <asp:TextBox ID="txtConsole" runat="server" Height="71px" Width="748px"></asp:TextBox>
             <br />
-            <asp:TextBox ID="TxtConsole" runat="server" Height="159px" OnTextChanged="TextBox1_TextChanged" Width="765px">Console Output</asp:TextBox>
             <br />
             <br />
             <br />

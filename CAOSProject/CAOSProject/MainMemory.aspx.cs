@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace CAOSProject
 {
-    public partial class GUI : System.Web.UI.Page
+    public partial class MainMemory : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
